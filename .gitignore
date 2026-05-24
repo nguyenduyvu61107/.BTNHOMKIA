@@ -1,0 +1,16 @@
+# Chặn folder cấu hình của VS Code
+.vscode/
+.idea/
+
+# Chặn thư viện Frontend (nếu bạn ông quên chưa xóa)
+node_modules/
+dist/
+
+# Chặn file rác Python Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
